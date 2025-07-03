@@ -33,6 +33,9 @@
 
 ***/
 
+::-webkit-scrollbar{
+	display: none;
+}
 
 @media only screen and (max-width: 1023px){
 	.tab-mob-hidden{
