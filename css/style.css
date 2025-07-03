@@ -115,11 +115,20 @@
 	z-index:998;
 
 }
+
+ .ribbon-front.r{
+	background-color: #cc3333;	
+ }
+
+ .ribbon-front.nr{
+	background-color: #010C3A;
+ }
+
   .ribbon-front {
 	display: grid;
 	place-items: center;
-	background-color: #cc3333;	height: 30px;
 	width: 150px;
+	height: 30px;
 	position: relative;
 	border-radius: 0 4px 4px 0;
 	top: 5px;
