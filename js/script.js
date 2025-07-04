@@ -438,8 +438,8 @@
 	
 	
 	// Four Item Carousel
-	if ($('.four-item-carousel').length) {
-		$('.four-item-carousel').owlCarousel({
+	if ($('.four-item-carousel.onec').length) {
+		$('.four-item-carousel.onec').owlCarousel({
 			loop:true,
 			margin:30,
 			nav:true,
@@ -468,6 +468,39 @@
 			}
 		});    		
 	}
+
+	// Four Item Carousel
+	if ($('.four-item-carousel.twoc').length) {
+		$('.four-item-carousel.twoc').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: 4000, // should also be a boolean
+			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				480:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:3
+				},
+				1024:{
+					items:3
+				}, 
+				1280: {
+					items: 4
+				},
+			}
+		});
+
+	}
 	
 	
 	// Four Item Carousel Two
@@ -477,7 +510,7 @@
 			margin:0,
 			nav:true,
 			smartSpeed: 500,
-			autoplay: 4000,
+			autoplay: 4000, // should also be a boolean
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
