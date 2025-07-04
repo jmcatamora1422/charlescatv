@@ -15,10 +15,10 @@
 		$(".masbate-map").hide();
 	}
 
-	$(".apply").on("click", function(event){
-		event.stopImmediatePropagation();
-		window.open("https://forms.gle/3J1UWFfozYwpaMWX6", "_blank");
-	})
+	// $(".apply").on("click", function(event){
+	// 	event.stopImmediatePropagation();
+	// 	window.open("https://forms.gle/3J1UWFfozYwpaMWX6", "_blank");
+	// })
 	
 	
 	//Update Header Style and Scroll to Top
